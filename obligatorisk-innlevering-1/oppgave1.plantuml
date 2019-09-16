@@ -1,0 +1,19 @@
+@startuml
+:Administrator: as admin
+:User: as user
+
+rectangle Application {
+left to right direction
+user --> (Subscribe)
+user --> (Login)
+user --> (Remove subscription)
+user --> (View content)
+
+(Login) <-- admin
+(Remove subscription) <-- admin
+(View content) <-- admin
+(Add content) <-- admin
+(Remove content) <-- admin
+}
+
+@enduml
