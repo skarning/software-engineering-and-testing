@@ -1,2 +1,3 @@
-\contentsline {section}{\numberline {1}Introduksjon}{3}
-\contentsline {subsection}{\numberline {1.1}Prosjekt}{3}
+\contentsline {section}{\numberline {1}Oppgave 1}{3}
+\contentsline {subsection}{\numberline {1.1}Oppgavebeskrivelse}{3}
+\contentsline {subsection}{\numberline {1.2}Diagram}{3}
