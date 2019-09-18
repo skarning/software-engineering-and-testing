@@ -8,3 +8,4 @@
 \contentsline {paragraph}{Ikke-funksjonelle krav}{4}
 \contentsline {section}{\numberline {3}Oppgave 3}{4}
 \contentsline {subsection}{\numberline {3.1}Oppgavebeskrivelse}{4}
+\contentsline {subsection}{\numberline {3.2}Diagram}{4}

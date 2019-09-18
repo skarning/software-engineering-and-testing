@@ -1,0 +1,12 @@
+@startuml
+Client -> Frontend: Create Profile
+Frontend -> API: Verify user
+API -> Database: Upload user
+API --> Frontend: OK
+Frontend --> Client: OK
+Client -> Frontend: Make payment
+Frontend -> API: Verify payment
+API --> Frontend: OK
+Frontend --> Client: OK
+API -> Database: Log payment
+@enduml
