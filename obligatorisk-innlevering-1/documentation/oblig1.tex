@@ -55,12 +55,29 @@ Lag et sekvensdiagram som viser hvordan flyten mellom hvert lag i systemet kan v
 
 Tenk gjennom hvilke feilsituasjoner som kan oppstå og lag et sekvensdiagram som viser en slik situasjon.
 
-\subsection{Diagram}
+\subsection{Sekvensdiagram for oprettelse av abonnement}
 I figur \ref{fig:oppgave3} ser vi sekvensdiagrammet for en bruker som skal lage et abonnement. Diagrammet inneholder tre systemer, frontend, API og database.
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{images/oppgave3.png}
 \caption{Sequence-diagram}
 \label{fig:oppgave3}
+\end{figure}
+
+\subsection{Sekvensdiagram for feilhåndtering}
+I et større system er det mange typer feil som kan intreffe. Feil som vi vet kan oppstå må håndteres.
+\begin{itemize}
+\item Intern nettverksfeil
+\item Feil inndata
+\item Feil fra eksterne systemer (som verifisering av kredittkort)
+\end{itemize}
+
+I dette eksemplet trekker jeg ut en feil ved inndata, brukeren har valgt et brukernavn som allerede finnes i systemet. Brukeren skal da få beskjed og muligheten til å kunne prøve med et annet brukernavn.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{images/oppgave3-2.png}
+\caption{Sequencediagram for errorhandling}
+\label{fig:oppgave3-2}
 \end{figure}
 \end{document}
